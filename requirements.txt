@@ -1,0 +1,7 @@
+Flask
+Flask-RESTful
+pytest
+requests
+urllib3
+pluggy
+py
