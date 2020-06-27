@@ -6,8 +6,8 @@ from uk_postal_code_validator import uk_postal_code_validator
 
 app = Flask(__name__)
 
-@app.route('/')
-def default():
+@app.route("/")
+def index():
     return "Hello, world!"
 
 # Define parser and request args
@@ -23,4 +23,4 @@ def get():
     return uk_postal_code_validator(code)
 
 if __name__ == "__main__":
-    app.run(port=1234)
+    app.run()

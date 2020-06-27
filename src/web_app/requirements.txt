@@ -1,5 +1,7 @@
-Flask==1.1.2
-Flask-RESTful==0.3.8
-pytest==5.4.3
-requests==2.24.0
-urllib3==1.25.9
+Flask
+Flask-RESTful
+pytest
+requests
+urllib3
+pluggy
+py

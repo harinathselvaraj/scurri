@@ -1,4 +1,4 @@
-from app import default
+from app import index
 
 def test_index():
-    assert default() == "Hello, world!"
+    assert index() == "Hello, world!"
