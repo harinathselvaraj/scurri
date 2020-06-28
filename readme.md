@@ -1,7 +1,7 @@
 # Scurri Project
 
 ### 1) Tell us about one thing you are proud of in your career. It could be a difficult technical problem you had to solve in your work or a personal project. There is no need to go into details; a short paragraph explaining the problem and why you are proud of it would be fine. 
-Answer: I've designed and developed an enterprise level solution to process terabytes of data from different sources including IoT devices in to AWS s3 (file system); process it using Apache Spark and load it in to analytical tables and Implemented best practices to make the front-end and back-end applications scalable using Docker & Kubernetes. I feel proud about it since I was able to architect the whole system in AWS cloud and lead an entire team of 10 members including developers, testers and analysts.
+Answer: I've designed and developed an enterprise level solution to process terabytes of data from different sources including IoT devices in to AWS s3 (file system) using Apache Kafka; process it using Apache Spark and load it in to analytical tables and Implemented best practices to make the front-end and back-end applications scalable using Docker & Kubernetes. I feel proud about it since I was able to architect the whole system in AWS cloud and lead an entire team of 10 members including developers, testers and analysts.
 
 ### 2) Question: Write a program that prints the numbers from 1 to 100. But for multiples of three print “Three” instead of the number and for the multiples of five print “Five”. For numbers which are multiples of both three and five print “ThreeFive”.
 Answer: The code is in src/print_numbers/print_numbers.py. The corresponding test cases are in tests/print_numbers/test_print_numbers.py
