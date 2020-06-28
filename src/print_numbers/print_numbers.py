@@ -10,3 +10,6 @@ def print_numbers():
     'Three' if (x % 3 == 0) else
     'Five' if (x % 5 == 0) else x  
   for x in range(1, 101) ])
+
+if __name__ == "__main__":
+    print_numbers()

@@ -1,3 +1,17 @@
+'''
+Name: app.py
+Author: Harinath Selvaraj
+Date: 27 June 2020
+Version: 1.00
+Description: Flask application that calls module - uk_postal_code_validator.py to 
+validate the format of UK postal codes
+Usage: Navigate to the currrent folder in terminal and type 'python3 app.py'
+        Go to the below URL to check the output.
+        http://localhost:1234
+        http://localhost:1234/api/?code=SW1W%200NY
+        Note: Use %20 instead of a space
+'''
+
 import json
 from flask import Flask, request
 from requests import put, get

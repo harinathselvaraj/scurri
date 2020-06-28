@@ -48,11 +48,3 @@ def test_validator_8():
 # Input with Spaces: Input - ' '
 def test_validator_9(): # spaces
     assert uk_postal_code_validator(' ') == "N"
-
-# Testing in Frontend
-# navigate to project folder in terminal and enter the below,
-# python3 app.py
-# Navigate to the below URL to check the output.
-# http://localhost:1234
-# http://localhost:1234/api/?code=SW1W%200NY
-# Note: Use %20 instead of a space
