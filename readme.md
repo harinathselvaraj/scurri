@@ -35,7 +35,8 @@ pytest
 ```
 git clone https://github.com/harinathselvaraj/scurri
 cd path/to/project/folder
-make any simple change to the files. eg) A small change to readme.md
+# make any simple change to the files. eg) A small change to readme.md
+git add .
 git commit -m "changes to readme.md"
 git push
 ```
